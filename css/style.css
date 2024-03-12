@@ -235,7 +235,7 @@ footer div {
   right: 0;
   background-color: #a7be18;
   width: 10%;
-  min-width: 59.5px;
+  min-width: 70px;
   margin-left: auto;
   padding: 5px 15px;
 }
@@ -246,4 +246,25 @@ footer div a {
   font-family: "Kaisei Opti", serif;
   font-size: 16px;
   width: 100%;
+}
+
+@media (max-width:410px) {
+  footer div {
+    position: fixed;
+    bottom: 10px;
+    right: 0;
+    background-color: #a7be18;
+    width: 10%;
+    min-width: 55px;
+    margin-left: auto;
+    padding: 5px 8px;
+  }
+
+  footer div a {
+    display: block;
+    color: #efefef;
+    font-family: "Kaisei Opti", serif;
+    font-size: 13px;
+    width: 100%;
+  }
 }
